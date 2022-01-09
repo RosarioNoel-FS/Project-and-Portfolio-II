@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{19AC0FA0-F570-43C8-9AD6-ECEAEFC78D3A}|Default">
+  <MonoDevelop.Ide.ItemProperties.APIDemoTax PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="APIDemoTax/Program.cs">
+    <Files>
+      <File FileName="APIDemoTax/Program.cs" Line="13" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="APIDemoTax" expanded="True">
+            <Node name="APIDemoTax" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

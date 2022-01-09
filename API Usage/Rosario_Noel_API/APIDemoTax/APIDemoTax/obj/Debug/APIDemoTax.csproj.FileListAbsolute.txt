@@ -1,0 +1,16 @@
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/bin/Debug/APIDemoTax.exe
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/bin/Debug/APIDemoTax.pdb
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/bin/Debug/Newtonsoft.Json.dll
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/bin/Debug/System.IO.dll
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/bin/Debug/System.Net.Http.dll
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/bin/Debug/System.Runtime.dll
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/bin/Debug/System.Security.Cryptography.Algorithms.dll
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/bin/Debug/System.Security.Cryptography.Encoding.dll
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/bin/Debug/System.Security.Cryptography.Primitives.dll
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/bin/Debug/System.Security.Cryptography.X509Certificates.dll
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/bin/Debug/Newtonsoft.Json.xml
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/obj/Debug/APIDemoTax.csproj.AssemblyReference.cache
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/obj/Debug/APIDemoTax.csproj.CoreCompileInputs.cache
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/obj/Debug/APIDemoTax.csproj.CopyComplete
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/obj/Debug/APIDemoTax.exe
+/Users/noelrosario/Desktop/Project_and_Portfolio_2_Repo/Project-and-Portfolio-II/API Usage/Rosario_Noel_API/APIDemoTax/APIDemoTax/obj/Debug/APIDemoTax.pdb
