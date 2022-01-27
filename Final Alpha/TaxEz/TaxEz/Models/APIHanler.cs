@@ -95,5 +95,10 @@ namespace TaxEz.Models
             //total amount taxed
             return federalTaxes + stateTaxes;
         }
+
+        public static void resetCache()
+        {
+            stateTaxBrackets = null;
+        }
     }
 }

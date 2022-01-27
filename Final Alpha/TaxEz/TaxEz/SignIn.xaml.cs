@@ -89,7 +89,7 @@ namespace TaxEz
                         State = state
                     };
 
-                    Application.Current.MainPage = new Tabs();
+                    Application.Current.MainPage = new NavigationPage(new Tabs());
                 }
             }
         }

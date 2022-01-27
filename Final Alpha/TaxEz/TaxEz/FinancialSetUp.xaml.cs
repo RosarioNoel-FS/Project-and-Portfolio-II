@@ -39,7 +39,7 @@ namespace TaxEz
                 sw.WriteLine($"{job};{grossIncome};{hoursWorked}");
             }
 
-            Application.Current.MainPage = new Tabs();
+            Application.Current.MainPage = new NavigationPage(new Tabs());
         }
     }
 }

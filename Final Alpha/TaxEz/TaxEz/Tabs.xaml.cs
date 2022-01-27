@@ -14,7 +14,25 @@ namespace TaxEz
         {
             InitializeComponent();
 
-            //create tab navigation
+            //add signout button to toolbar
+            ToolbarItem signOut = new ToolbarItem()
+            {   
+                Text = "Sign Out",
+                Order = ToolbarItemOrder.Primary,
+                Priority = 0,
+            };
+            ToolbarItems.Add(signOut);
+
+            signOut.Command = new Command((sender) =>
+            {
+                //nav to main page
+                Application.Current.MainPage = new NavigationPage(new MainPage());
+                //reset user data
+                CurrentUser = null;
+                APIHanler.resetCache();
+            });
+
+            //create tabs
             SubmitTab submitTab = new SubmitTab();
             submitTab.Title = "Submit";
 
