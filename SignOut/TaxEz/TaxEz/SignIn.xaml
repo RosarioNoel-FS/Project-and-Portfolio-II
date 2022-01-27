@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TaxEz.SignIn">
+    <StackLayout BackgroundColor="#232A34">
+        <Label Text="Sign In" TextColor="#2699FB" FontSize="Title" FontAttributes="Bold" Margin="20,50,0,0"/>
+        <StackLayout Margin="0,100,0,0">
+            <Entry x:Name="EntryUsernameSignIn" Placeholder="Username" TextColor="#2699FB" PlaceholderColor="#2699FB" Keyboard="Email" />
+            <Entry x:Name="EntryPasswordSignIn" Placeholder="Password" Margin="0,30,0,0" TextColor="#2699FB" PlaceholderColor="#2699FB" IsPassword="True" />
+            <Button x:Name="MakeNewAccountButton" Text="Make a new account" BackgroundColor="#232A34" TextColor="#2699FB" />
+        </StackLayout>
+            <StackLayout Margin="0,100,0,0">
+                <Button x:Name="LogInButton" Text="Log In" HorizontalOptions="Center" WidthRequest="350" HeightRequest="50" BackgroundColor="#2699FB" TextColor="#FFFFFF" />
+                <Button x:Name="ForgotUserPassButton" Text="Forgot Username/Password" BackgroundColor="#232A34" TextColor="#2699FB" />
+            </StackLayout>
+    </StackLayout>
+</ContentPage>
+

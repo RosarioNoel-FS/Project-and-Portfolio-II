@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TaxEz.SignUp">
+    <StackLayout BackgroundColor="#232A34">
+        <Label Text="Create an Account" TextColor="#2699FB" FontSize="Title" FontAttributes="Bold" Margin="20,35,0,0"/>
+        <StackLayout Margin="0,20,0,0">
+            <Entry x:Name="EntryFirstNameSignUp" Placeholder="First Name" TextColor="#2699FB" PlaceholderColor="#2699FB" Margin="0,10,0,0" />
+            <Entry x:Name="EntryLastNameSignUp" Placeholder="Last Name" TextColor="#2699FB" PlaceholderColor="#2699FB" Margin="0,10,0,0" />
+            <Entry x:Name="EntryUsernameSignUp" Placeholder="Username" TextColor="#2699FB" PlaceholderColor="#2699FB" Margin="0,10,0,0" />
+
+            <Entry x:Name="EntryEmailSignUp" Placeholder="Email" PlaceholderColor="#2699FB" TextColor="#2699FB" Margin="0,10,0,0" Keyboard="Email"/>
+            <Entry x:Name="EntryPasswordSignUp" Placeholder="Password" PlaceholderColor="#2699FB" TextColor="#2699FB" Margin="0,10,0,0" IsPassword="True"/>
+            <Entry x:Name="EntryPasswordTwoSignUp" Placeholder="Retype Password" PlaceholderColor="#2699FB" TextColor="#2699FB" Margin="0,10,0,0" IsPassword="True"/>
+        </StackLayout>
+        <StackLayout>
+            <Button x:Name="SignUpButton" Text="Sign Up" HorizontalOptions="Center" WidthRequest="350" HeightRequest="50" BackgroundColor="#2699FB" TextColor="#FFFFFF" Margin="0,40,0,0" />
+            <Button x:Name="AlreadyHaveAccountButton" Text="already have an account?" BackgroundColor="#232A34" TextColor="#2699FB" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

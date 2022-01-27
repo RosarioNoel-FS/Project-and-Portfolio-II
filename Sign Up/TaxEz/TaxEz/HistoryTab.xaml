@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TaxEz.HistoryTab" BackgroundColor="#232A34" Title="History" >
+     <StackLayout>
+            <Label x:Name="LabelGrossTotal" Text="Total Gross Income:" TextColor="#2699FB" FontSize="Title" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Margin="0,30,0,0"/>    
+            <Label x:Name="LabelTakeHomeTotal" Text="Total Take Home:" TextColor="#2699FB" FontSize="Title" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Margin="0,20,0,0" />
+        <StackLayout Orientation="Horizontal" HeightRequest="200" WidthRequest="200">
+            <Label Text="Earnings" TextColor="#2699FB" FontSize="Small" FontAttributes="Bold" Margin="20,35,0,0" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Put Away" TextColor="#2699FB" FontSize="Small" FontAttributes="Bold" Margin="20,35,0,0" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Remaining Amount" TextColor="#2699FB" FontSize="Small" FontAttributes="Bold" Margin="20,35,0,0" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+
+         <ListView x:Name="listView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding PreTaxAmount, StringFormat='{0:C}'}" TextColor="#2699FB" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+                        <Label Text="{Binding Deducted, StringFormat='{0:C}'}" TextColor="#2699FB" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+                        <Label Text="{Binding TakeHomeAmount, StringFormat='{0:C}'}" TextColor="#2699FB" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+                    </StackLayout>
+                </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+     </StackLayout>
+</ContentPage>
