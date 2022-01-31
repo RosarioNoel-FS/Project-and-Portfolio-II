@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TaxEz.SubmitTab" Title="Submit" BackgroundColor="#232A34" >
+   <StackLayout>
+        <Label Text="Pre Tax Amount" TextColor="#2699FB" FontSize="Title" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,50,0,0"/>
+        <Entry x:Name="EntryGrossSubmission" Placeholder="Please enter the amount earned pre tax" TextColor="#2699FB" PlaceholderColor="#BCE0FD" HorizontalOptions="Center" HorizontalTextAlignment="Center" Keyboard="Numeric" />
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Job Name" TextColor="#2699FB" FontSize="Title" FontAttributes="Bold"  HorizontalOptions="CenterAndExpand" Margin="0,50,0,0" HorizontalTextAlignment="Center"/>
+            <Label Text="Hours Worked" TextColor="#2699FB" FontSize="Title" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Margin="0,50,0,0" HorizontalTextAlignment="Center"/>        
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" >
+            <Entry x:Name="EntryJobName" Placeholder="" PlaceholderColor="#BCE0FD" TextColor="#2699FB" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" WidthRequest="150" />
+            <Entry x:Name="EntryHoursWorked" Placeholder="" PlaceholderColor="#BCE0FD" TextColor="#2699FB" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" WidthRequest="150" Keyboard="Numeric" />
+        </StackLayout>
+        <StackLayout>
+            <Button x:Name="SubmitButton" Text="Submit" Margin="0,220,0,0" BackgroundColor="#2699FB" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
+    

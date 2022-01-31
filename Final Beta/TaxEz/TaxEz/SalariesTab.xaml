@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TaxEz.SalariesTab" BackgroundColor="#232A34" Title="Salaries">
+    <StackLayout>
+        <StackLayout Orientation="Horizontal" HeightRequest="200" WidthRequest="200">
+            <Label Text="Job Name" TextColor="#2699FB" FontSize="Small" FontAttributes="Bold" Margin="20,35,0,0" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Hours Worked" TextColor="#2699FB" FontSize="Small" FontAttributes="Bold" Margin="20,35,0,0" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Remaining Amount" TextColor="#2699FB" FontSize="Small" FontAttributes="Bold" Margin="20,35,0,0" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Hourly Rate" TextColor="#2699FB" FontSize="Small" FontAttributes="Bold" Margin="20,35,0,0" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+
+        </StackLayout>
+
+        <ListView x:Name="listview">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Label Text="{Binding JobName}" TextColor="#2699FB" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+                            <Label Text="{Binding HoursWorked}" TextColor="#2699FB" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" Grid.Column="1" />
+                            <Label Text="{Binding PreTaxAmount, StringFormat='{0:C}'}" TextColor="#2699FB" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" Grid.Column="2" />
+                            <Label Text="{Binding PayRate, StringFormat='{0:C}'}" TextColor="#BCE0FD" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" Grid.Column="3" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
